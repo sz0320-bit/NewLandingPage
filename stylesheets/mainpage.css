@@ -20,6 +20,7 @@ a{
     -webkit-backdrop-filter: blur(12.7px);
     border: 1px solid rgba(153, 148, 186, 0.3);
     margin-right: 2.5em;
+    margin-bottom: 2.5rem;
 }
 .secondwrapper{
     height: 70px;
@@ -56,7 +57,6 @@ font-size: 3em;
     font-size: 3rem;
     text-align: center;
     -webkit-text-stroke: .09rem black;
-    font-weight: bold;
 }
 .secondHero{
     color: white;
@@ -79,9 +79,63 @@ font-size: 3em;
 .images img{
     width: 100%;
     height: 100%;
-    scale: inherit;
+    scale: initial;
     border-radius: 20px;
 }
+.secondFlex{
+    border: solid 4px white;
+    padding: 10px;
+    margin: 20px;
+    height: 50rem;
+    border-radius: 7px;
+    background: rgba(153, 148, 186, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.7px);
+    -webkit-backdrop-filter: blur(12.7px);
+    border: 1px solid rgba(153, 148, 186, 0.3);
+    margin-right: 2.5em;
+}
+h1{
+    text-align: center;
+    font-size: 3.25rem;
+    color: white;
+    -webkit-text-stroke: .09rem black;
+}
+.secondContainer{
+    border: solid 4px white;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.scItems{
+    flex: 1 1 0;
+    padding: 1em;
+    text-align: center;
+}
+.scItems img{
+    width: 100%;
+    height: 60%;
+    scale: initial;
+    border-radius: 20px;
+
+}
+
+.scItems{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 680px) {
     .phoneCover{
         display: flex;
