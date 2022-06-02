@@ -69,10 +69,12 @@ font-size: 3em;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
 }
 .images{
     flex: 1 1 0;
     padding: 1em;
+
 }
 .images img{
     width: 100%;
