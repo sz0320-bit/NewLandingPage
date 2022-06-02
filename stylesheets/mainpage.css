@@ -68,18 +68,15 @@ font-size: 3em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: center;
 }
 .images{
     flex: 1 1 0;
-    display: flex;
     padding: 1em;
-
 }
 .images img{
     width: 100%;
     height: 100%;
-    scale: initial;
     border-radius: 20px;
 }
 .secondFlex{
